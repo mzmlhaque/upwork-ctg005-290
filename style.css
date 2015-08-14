@@ -1,0 +1,249 @@
+a, a:hover{
+    color: #000;
+}
+body{
+    background: #fff;
+    padding: 30px;
+    color: #575757;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+p{
+    text-align: justify;
+}
+#slider {
+    padding-top:30px;
+}
+.btn-mehedi{
+    background: #C8B191;
+    color: #fff;
+}
+
+.btn-kolija{
+    background: #8C6D6B;
+    color: #fff;
+}
+
+.right{
+    float: right;
+}
+
+.btn a{
+    color: #fff;
+}
+.nav-bar ul li a {
+  font-size: 16px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #616161;
+    
+}
+
+#quotes {
+  padding: 5%;
+}
+.nav-bar ul li a:hover {
+  text-decoration: none;
+    border-bottom: 3px solid #CFBC93;
+}
+.slider-container{
+    position: relative;
+}
+.quote-icon{
+    color: #C3C3C3;
+}
+.btn {
+  border-radius: 0;
+  padding: 10px 25px;
+}
+.slider-room-info {
+  background: #000 none repeat scroll 0 0;
+  bottom: 13%;
+  color: #cbcbcb;
+  font-weight: 700;
+  left: 9%;
+  opacity: 0.58;
+  overflow: hidden;
+  padding: 10px;
+  position: absolute;
+  top: 20%;
+  width: 300px;
+}
+.header-icons ul li {
+  margin-left: 22px;
+}
+
+.header-icons{
+    margin-bottom: 30px;
+}
+.nav-bar {
+  margin-top: 23px;
+}
+.logo-text {
+  font-size: 40px;
+}
+
+.info-left{
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+.info-right{
+    float: right;
+    padding: 10px;
+    width: 45%;
+}    
+
+#intro{
+    padding-top: 20px;
+}
+#intro h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.leave {
+  padding-bottom: 20px;
+  color: #C8B191;
+  font-size: 25px;
+}
+.message{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.promo button{
+    margin-top: 20px;
+}
+.short-border{
+    background:  #CFBC93;
+    width: 50px;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.promo form{
+    padding: 0 30px;
+    
+}
+
+.promo form p{
+   margin-bottom: 25px;
+    margin-top: 20px
+    
+}
+
+.add-image > img {
+  border: 5px solid #ddd;
+  padding: 3px;
+}
+
+#apartment {
+  padding-top: 25px;
+}
+#apartment h2 {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.apartment-single {
+  position: relative;
+}
+
+
+.apart-price {
+  background: #ddd none repeat scroll 0 0;
+  bottom: 0;
+  height: 11%;
+  padding: 1% 1% 1% 10px;
+  position: absolute;
+  top: 89%;
+  width: 100%;
+}
+.apart-price:hover {
+  background: #bbb none repeat scroll 0 0;
+
+}
+.apart-feathures {
+  margin-left: 20px;
+  margin-right: 116px;
+}
+
+.apart-img > img {
+  width: 100%;
+}
+.apart-feathures ul li {
+  margin: 20px auto;
+}
+#contact{
+    background-image: url(images/hotel.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 350px;
+    background-position: center;
+    opacity: .7;
+}
+.call-single {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  margin: 10%;
+  padding: 9%;
+  text-align: center;
+}
+.call-single h3 {
+  margin-bottom: 20px;
+}
+.call-icon{
+    position: relative;
+}
+.call-icon i {
+  background: #44273d none repeat scroll 0 0;
+  border-radius: 50%;
+  bottom: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  left: 29%;
+  padding: 35px;
+  position: absolute;
+  text-align: center;
+}
+#subscribe {
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+#footer {
+  background: #eee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#copyright {
+  padding: 40px;
+}
+
+
+.footer-logo ul{
+    margin-top: 30px;
+}
+.footer-logo ul li a {
+  background: none repeat scroll 0 0 #c8b191;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  padding: 16px;
+}
+.footer-logo ul li a:hover{
+  background: none repeat scroll 0 0 #27A9E1;
+  
+}
+.active{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.signup{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    margin-right: 10px;
+}

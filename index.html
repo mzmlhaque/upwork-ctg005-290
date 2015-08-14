@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upwork live porject</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+   <!-- Header Contents -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-md-offset-5 header-icons">
+                    <ul class="list-inline">
+                        <li><a href="#"><i class="fa fa-user"> login </i></a></li>
+                        <li><a href="#"><li><i class="fa fa-user-plus"> signup </i></a></li>
+                        <li><img src="images/flag.png" alt=""> <span class="text-uppercase"> English </span> </i></li>
+                        <li id="search-icon" class="active"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li>
+                            <form action="#" class="form-inline hide" id="search-form">
+                                <input type="text" id="search-field">
+                                <button type="submit"><i class="fa fa-search"></i>
+    </button>
+                            </form>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Call to action -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <a href=""><img src="images/logo.png" alt=""> <span class="logo-text">StayNorwich</span></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="phone">
+                        <i class="fa fa-phone"></i>
+                        <small>Call Us</small><br>
+                        <small>+44 (09) 897123845763476</small>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="book-now">
+                        <a href=""><button class="btn btn-mehedi"><i class="fa fa-calendar"></i> <span class="text-uppercase"> &nbsp; BookNow</span></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nav-bar">
+                        <ul class="list-inline">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">apartments</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">places of interest</a></li>
+                            <li><a href="#">what guests think</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">location</a></li>
+                            <li><a href="#">contacts us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+   <!-- Slider area -->
+   <section id="slider">
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-12">
+                   <div id="carousel" class="carousel slide" data-ride="carousel">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                           <div class="slider-container">
+                               <img class="img-responsive" src="images/bed1.jpg" alt="">
+                               <div class="slider-room-info">
+                                   <h3>Apartment no: 234</h3>
+                                   <div class="info-left">
+                                       <ul class="list-unstyled">
+                                           <li><i class="fa fa-user"></i> 4</li>
+                                           <li><i class="fa fa-hand-lizard-o"></i> Bathroom</li>
+                                           <li><i class="fa fa-newspaper-o"></i></i> AC</li>
+                                       </ul>
+                                   </div>
+                                   <div class="info-right">
+                                       <ul class="list-unstyled">
+                                           <li><i class="fa fa-bed"></i> 2 bedrooms</li>
+                                           <li><i class="fa fa-wifi"></i> Internet</li>
+                                           <li><i class="fa fa-car"></i> Parking</li>
+                                       </ul>
+                                   </div>
+                                   <button class="btn btn-mehedi center-block">See Full Details</button>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                          <div class="slider-container">
+                               <img class="img-responsive" src="images/bed2.jpg" alt="">
+                               <div class="slider-room-info">
+                                   <h3>Apartment no: 234</h3>
+                                   <div class="info-left">
+                                       <ul class="list-unstyled">
+                                           <li><i class="fa fa-user"></i> 4</li>
+                                           <li><i class="fa fa-hand-lizard-o"></i> Bathroom</li>
+                                           <li><i class="fa fa-newspaper-o"></i></i> AC</li>
+                                       </ul>
+                                   </div>
+                                   <div class="info-right">
+                                       <ul class="list-unstyled">
+                                           <li><i class="fa fa-bed"></i> 2 bedrooms</li>
+                                           <li><i class="fa fa-wifi"></i> Internet</li>
+                                           <li><i class="fa fa-car"></i> Parking</li>
+                                       </ul>
+                                   </div>
+                                   <button class="btn btn-mehedi center-block">See Full Details</button>
+                               </div>
+                           </div>
+                        </div>
+                      </div>
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- Welcome Message -->
+   <section id="intro">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 text-center">
+                   <h2 class="text-uppercase">Welcome to StayNorwich</h2>
+                   <i class="fa fa-pagelines leave"></i><br>
+                   <div class="message">
+                       <p>At StayNorwich we provide luxury but affordable, comfortable apartments <br> 
+                       for our esteemed guests from all over the globe.</p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="row promo">
+               <div class="col-sm-4 promo-single">
+                   <h3 class="text-uppercase">Location</h3>
+                   <div class="short-border"></div>
+                   <div class="hr"></div>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque cum commodi, sint nobis, repellat, maiores suscipit accusantium ipsa vitae laborum. Amet deleniti necessitatibus nemo omnis laudantium blanditiis eveniet porro!</p>
+                   <button class="btn btn-mehedi upp"><a href="" class="text-uppercase">Read More</a></button>
+               </div>
+               <div class="col-sm-4 promo-single">
+                  <h3 class="text-uppercase">Reservation</h3>
+                  <div class="short-border"></div>
+                   <form>
+                     <p>1. Check-in Date</p>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input type="text" class="form-control" id="datepicker-1">
+                          <div class="input-group-addon"><i class="fa fa-calendar datepicker-3"></i></div>
+                        </div>
+                        <p>2. Check-in Date</p>
+                         <div class="input-group">
+                          <input type="text" class="form-control" id="datepicker-2">
+                          <div class="input-group-addon"><i class="fa fa-calendar datepicker-4"></i></div>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-kolija right">Search <i class="fa fa-search"></i></button>
+                  </form>
+                  <br>
+               </div>
+               <div class="col-sm-4 promo-single">
+                   <div class="add-image">
+                       <img src="images/advertisement.png" alt="">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section id="apartment">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <h2 class="text-center text-uppercase">Our apartments</h2>
+               </div>
+               <div class="col-md-6">
+                   <div class="apartment-single">
+                      <div class="apart-img">
+                        <img src="images/apart1.jpg" alt="">
+                      </div>
+                      <div class="apart-price">
+                          <span class="apart-cost">Apartment -69-G Start at $48/night</span>
+                      </div>
+                   </div>
+                   <div class="apart-feathures">
+                       <div class="row">
+                           <div class="col-sm-4">
+                               <div class="apart-featur-single">
+                                   <ul class="list-unstyled">
+                                       <li><i class="fa fa-user"></i> 4</li>
+                                       <li><i class="fa fa-hand-lizard-o"></i> Bathroom</li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <div class="col-sm-4">
+                               <div class="apart-featur-single">
+                                   <ul class="list-unstyled">
+                                       <li><i class="fa fa-newspaper-o"></i></i> AC</li>
+                                        <li><i class="fa fa-wifi"></i> Internet</li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <div class="col-sm-4">
+                               <div class="apart-featur-single">
+                                   <ul class="list-unstyled">
+                                       <li><i class="fa fa-bed"></i> 2 bedrooms</li>
+                                       <li><i class="fa fa-car"></i> Parking</li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="apartment-speech">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facere distinctio perspiciatis voluptatum reiciendis qui consequuntur, dignissimos cumque, optio magnam fugit voluptates officia minima! Nostrum nam, dolore est rerum sint quia tenetur! Maxime hic perferendis recusandae obcaecati debitis, minus amet praesentium dignissimos consequuntur ut. Ipsam!</p>
+                   </div>
+                   <button class="btn btn-mehedi right">Book Now</button>
+               </div>
+               <div class="col-md-6">
+                   <div class="apartment-single">
+                      <div class="apart-img">
+                        <img src="images/apart1.jpg" alt="">
+                      </div>
+                      <div class="apart-price">
+                          <span class="apart-cost">Apartment -69-G Start at $48/night</span>
+                      </div>
+                   </div>
+                   <div class="apart-feathures">
+                       <div class="row">
+                           <div class="col-sm-4">
+                               <div class="apart-featur-single">
+                                   <ul class="list-unstyled">
+                                       <li><i class="fa fa-user"></i> 4</li>
+                                       <li><i class="fa fa-hand-lizard-o"></i> Bathroom</li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <div class="col-sm-4">
+                               <div class="apart-featur-single">
+                                   <ul class="list-unstyled">
+                                       <li><i class="fa fa-newspaper-o"></i></i> AC</li>
+                                        <li><i class="fa fa-wifi"></i> Internet</li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <div class="col-sm-4">
+                               <div class="apart-featur-single">
+                                   <ul class="list-unstyled">
+                                       <li><i class="fa fa-bed"></i> 2 bedrooms</li>
+                                       <li><i class="fa fa-car"></i> Parking</li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="apartment-speech">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facere distinctio perspiciatis voluptatum reiciendis qui consequuntur, dignissimos cumque, optio magnam fugit voluptates officia minima! Nostrum nam, dolore est rerum sint quia tenetur! Maxime hic perferendis recusandae obcaecati debitis, minus amet praesentium dignissimos consequuntur ut. Ipsam!</p>
+                   </div>
+                   <button class="btn btn-mehedi right">Book Now</button>
+               </div>
+               
+           </div>
+       </div>
+   </section>
+   
+   <!--   Qutoe -->
+   
+<section class="text-center" id="quotes">
+          <h2 class="text-uppercase">what guests think</h2>
+           <div class="quotes">
+               <div class="container">
+
+                <div id="quote-slider" class="carousel slide" data-ride="carousel">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
+                       <blockquote>Web designers are able to see well that may not be available to others in <br>
+                      order to create something that others do not see but feel.</blockquote>
+                      <span class="quote-icon" style="text-indent: 5em"><i class="fa fa-quote-right"></i>
+                </span><br>
+                       </i></h3>
+                       <cite>Naumenkov Roman  |  Web Designer </cite>
+                    </div>
+                    <div class="item">
+                      <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
+                           <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, et. <br>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
+                          <span class="quote-icon" style="text-indent: 5em"><i class="fa fa-quote-right"></i>
+                    </span><br>
+                           </i></h3>
+                           <cite>Ami Nai |  Web Developer </cite>
+                    </div>
+                    <div class="item">
+                      <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
+                           <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, et. <br>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
+                          <span class="quote-icon" style="text-indent: 5em"><i class="fa fa-quote-right"></i>
+                    </span><br>
+                           </i></h3>
+                           <cite>Ar kare dimo |  Web Developer </cite>
+                    </div>
+                    <div class="item">
+                      <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
+                           <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, et. <br>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote>
+                          <span class="quote-icon" style="text-indent: 5em"><i class="fa fa-quote-right"></i>
+                    </span><br>
+                           </i></h3>
+                           <cite>Vebe Pai nai |  Web Developer </cite>
+                    </div>
+                  </div>
+                </div>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+               </div>
+           </div>
+       </section>
+       <section id="contact">
+           <div class="container">
+               <div class="row text-center">
+                   <div class="col-sm-4">
+                       <div class="call-single">
+                           <div class="call-icon">
+                               <i class="fa fa-phone"></i>
+                           </div>
+                           <h3 class="text-uppercase">Call Us</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, labore!</p>
+                           <p>+64 (78768) 45689374</p>
+                       </div>
+                   </div>
+                   <div class="col-sm-4">
+                       <div class="call-single">
+                           <div class="call-icon">
+                               <i class="fa fa-phone"></i>
+                           </div>
+                           <h3 class="text-uppercase">Call Us</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, labore!</p>
+                           <p>+64 (78768) 45689374</p>
+                       </div>
+                   </div>
+                   <div class="col-sm-4">
+                       <div class="call-single">
+                           <div class="call-icon">
+                               <i class="fa fa-phone"></i>
+                           </div>
+                           <h3 class="text-uppercase">Call Us</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, labore!</p>
+                           <p>+64 (78768) 45689374</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section> 
+       <!-- Newsletter -->  
+       <section id="subscribe">
+           <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                      <div class="text-center">
+                         <form class="form-inline">
+                          <div class="form-group">
+                              <span class="signup">Signup for newsletter</span>
+                            <div class="input-group">
+                              <input type="email" class="form-control" id="" placeholder="E-mail Address">
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-mehedi">Subscribe</button>
+                        </form>
+                      </div>
+                  </div>
+               </div>
+           </div>
+       </section>
+       <section id="footer">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-3">
+                       <div class="footer-logo">
+                           <img src="images/logo.png" alt="">
+                           <h2>StayNorwich</h2>
+                           <ul class="list-inline">
+                               <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                               <li><a href="http://facebook.com"><i class="fa fa-twitter"></i></a></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-sm-3">
+                     <h3>About Us</h3>
+                       <ul class="list-unstyled">
+                           <li><a href="#">Home</a></li>
+                            <li><a href="#">apartments</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">places of interest</a></li>
+                            <li><a href="#">what guests think</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">location</a></li>
+                            <li><a href="#">contacts us</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-sm-3">
+                      <h3>Support</h3>
+                       <ul class="list-unstyled">
+                           <li><a href="#">Home</a></li>
+                            <li><a href="#">apartments</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">places of interest</a></li>
+                            <li><a href="#">what guests think</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">location</a></li>
+                            <li><a href="#">contacts us</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-sm-3">
+                      <h3>Contact Us</h3>
+                       <ul class="list-unstyled">
+                           <li>
+                               <i class="fa fa-map-marker" style="color: #C8B191"></i> &nbsp; Lorem ipsum dolor.
+                               <address>
+                                  &nbsp; &nbsp; &nbsp; Lorem ipsum dolor. <br>
+                                  &nbsp; &nbsp; &nbsp; Lorem ipsum. <br>
+                                  &nbsp; &nbsp; &nbsp; Eito ar ki 
+                               </address>
+                           </li>
+                            <li><i class="fa fa-envelope-o" style="color: #C8B191"></i> &nbsp; info@staynorwich.com</li>
+                           <li><i class="fa fa-phone" style="color: #C8B191"> &nbsp;</i> +61 586982414</li>
+
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <section id="copyright">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-12">
+                       <p class="text-center">StayNorwich, copyright - 2015</p>
+                   </div>
+               </div>
+           </div>
+       </section>
+     <script>
+
+         $(document).ready(function(){
+            $("#search-field").blur(function(){
+                $("#search-form").removeClass("active");
+                $("#search-form").addClass("hide");
+            });
+               
+              $(function() {
+        $( "#datepicker-1" ).datepicker();
+        });
+         
+        $(function() {
+        $( "#datepicker-2" ).datepicker();
+        });
+
+         $("#search-icon").click(function(){
+         $("#search-form").removeClass("hide");
+         $("#search-form").addClass("active");
+             
+         });     
+             
+        });
+   
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
